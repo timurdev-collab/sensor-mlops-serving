@@ -28,3 +28,7 @@ docker run --rm -p 8001:8001 sensor-mlops-serving
 
 ## API contract and smoke tests
 Run `python -m unittest discover -s tests -v` for model and live-loopback HTTP tests, including malformed input behavior and metrics. Start the API with `python -m service.api` and then run `python scripts/smoke_test.py` in a second terminal. The [architecture](docs/architecture.md) distinguishes implemented rules-based serving from future trained-model infrastructure. No cloud deployment is claimed.
+
+## AWS + Jira Cloud planning
+
+See [AWS architecture and Jira Cloud backlog](docs/AWS_JIRA_ROADMAP.md). These are planning resources, **not** a claim of live AWS infrastructure or an active Jira Cloud board.
